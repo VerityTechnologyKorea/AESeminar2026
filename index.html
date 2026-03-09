@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 전장설계 기술 세미나 | Verity Technology</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f8fafc;
+        }
+        .hero-section {
+            /* 수정됨: 외부 링크 대신 직접 업로드할 이미지 파일명(hero_bg.jpg) 사용 */
+            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), 
+                        url('hero_bg.jpg'); 
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        .circuit-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(#3b82f6 0.5px, transparent 0.5px);
+            background-size: 30px 30px;
+            opacity: 0.15;
+        }
+        .agenda-card {
+            transition: all 0.2s ease;
+        }
+        .agenda-card:hover {
+            transform: translateY(-3px);
+            border-color: #3b82f6;
+        }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <!-- Header / Hero Section -->
+    <section class="hero-section text-white py-28 px-6 shadow-2xl">
+        <div class="circuit-overlay"></div>
+        <div class="max-w-4xl mx-auto relative z-10 text-center">
+            <div class="inline-flex items-center bg-blue-600/20 backdrop-blur-md border border-blue-400/30 text-blue-200 text-xs font-bold px-4 py-2 rounded-full mb-8 tracking-widest uppercase">
+                Verity Technology Korea x Channel Partner
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-8 leading-tight tracking-tight">
+                2026 전장설계 기술 세미나
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-300 font-light mb-12 max-w-3xl mx-auto leading-relaxed">
+                모빌리티 혁신을 위한 <span class="text-white font-medium text-blue-400">전장 PCB 설계 및 시뮬레이션</span><br>
+                실무 최적화 프로세스와 글로벌 검증 전략을 공개합니다.
+            </p>
+            
+            <div class="flex flex-col md:flex-row justify-center gap-4 mt-8">
+                <div class="bg-white/5 backdrop-blur-xl px-10 py-5 rounded-2xl border border-white/10 shadow-xl">
+                    <span class="block text-blue-400 text-xs font-bold uppercase mb-1 tracking-tighter">Event Date</span>
+                    <span class="text-xl font-bold">2026. 04. 17 (금)</span>
+                </div>
+                <div class="bg-white/5 backdrop-blur-xl px-10 py-5 rounded-2xl border border-white/10 shadow-xl">
+                    <span class="block text-blue-400 text-xs font-bold uppercase mb-1 tracking-tighter">Location</span>
+                    <span class="text-xl font-bold">본사 세미나홀 (1F)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="max-w-5xl mx-auto px-6 -mt-12 relative z-20 pb-24">
+        
+        <!-- Welcome & Logos -->
+        <div class="bg-white p-10 rounded-[2rem] shadow-2xl border border-slate-200 mb-12 flex flex-col md:flex-row items-center justify-between gap-10">
+            <div class="text-center md:text-left flex-1">
+                <h2 class="text-2xl font-bold mb-3 text-slate-900 tracking-tight">기술 세미나 초청 안내</h2>
+                <p class="text-slate-500 leading-relaxed font-light">
+                    Verity Technology Korea에서 소규모 전장 설계 실무자분들을 위해<br class="hidden md:block">
+                    PCB 설계 고도화와 제조 검증 노하우를 공유하는 자리를 마련했습니다.
+                </p>
+            </div>
+            <div class="flex items-center gap-6">
+                <!-- 수정됨: 로고 이미지 파일명 사용 -->
+                <div class="group flex flex-col items-center">
+                    <div class="h-16 w-32 bg-white rounded-xl flex items-center justify-center border border-slate-200 p-2 transition-all hover:border-blue-300">
+                        <img src="logo_verity.png" alt="Verity Technology Korea" class="max-h-full max-w-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <span class="hidden text-[10px] font-bold text-slate-400 text-center">Verity Logo</span>
+                    </div>
+                </div>
+                <div class="h-8 w-px bg-slate-200"></div>
+                <div class="group flex flex-col items-center">
+                    <div class="h-16 w-32 bg-white rounded-xl flex items-center justify-center border border-slate-200 p-2 transition-all hover:border-blue-300">
+                        <img src="logo_partner.png" alt="Partner Logo" class="max-h-full max-w-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <span class="hidden text-[10px] font-bold text-slate-400 text-center">Partner Logo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Agenda Section -->
+        <div class="mb-16">
+            <div class="flex items-center justify-between mb-8 border-b border-slate-200 pb-4">
+                <h3 class="text-2xl font-bold text-slate-900 flex items-center">
+                    <span class="w-3 h-8 bg-blue-600 mr-4 rounded-full"></span>
+                    Seminar Agenda
+                </h3>
+                <span class="text-slate-400 text-sm font-medium">Technical Sessions</span>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Session 1 -->
+                <div class="agenda-card bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-blue-50 text-blue-600 font-black text-xl flex items-center justify-center rounded-2xl mb-6">01</div>
+                        <h4 class="text-xl font-bold text-slate-900 leading-snug mb-4">자동차 전장 부품의 글로벌 OE 규격 대응을 위한 PSpice 시뮬레이션 기반 검증 방법</h4>
+                    </div>
+                    <div class="pt-6 border-t border-slate-50 flex items-center text-slate-600">
+                        <div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center mr-3 text-slate-400">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"></path></svg>
+                        </div>
+                        <span class="font-bold text-sm">신동은 님</span>
+                        <span class="mx-2 text-slate-300">|</span>
+                        <span class="text-sm text-slate-500">현대모비스</span>
+                    </div>
+                </div>
+
+                <!-- Session 2 -->
+                <div class="agenda-card bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-slate-50 text-slate-400 font-black text-xl flex items-center justify-center rounded-2xl mb-6">02</div>
+                        <h4 class="text-xl font-bold text-slate-900 leading-snug mb-4">Allegro X PCB을 활용한 전장 PCB Design</h4>
+                    </div>
+                    <div class="pt-6 border-t border-slate-50 flex items-center text-slate-600">
+                        <div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center mr-3 text-slate-400">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"></path></svg>
+                        </div>
+                        <span class="font-bold text-sm">[발표자 성함]</span>
+                        <span class="mx-2 text-slate-300">|</span>
+                        <span class="text-sm text-slate-500">Verity Technology</span>
+                    </div>
+                </div>
+
+                <!-- Session 3 -->
+                <div class="agenda-card bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-slate-50 text-slate-400 font-black text-xl flex items-center justify-center rounded-2xl mb-6">03</div>
+                        <h4 class="text-xl font-bold text-slate-900 leading-snug mb-4">Sigrity Aurora을 활용한 PCB 설계 검증</h4>
+                    </div>
+                    <div class="pt-6 border-t border-slate-50 flex items-center text-slate-600">
+                        <div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center mr-3 text-slate-400">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"></path></svg>
+                        </div>
+                        <span class="font-bold text-sm">[발표자 성함]</span>
+                        <span class="mx-2 text-slate-300">|</span>
+                        <span class="text-sm text-slate-500">Verity Technology</span>
+                    </div>
+                </div>
+
+                <!-- Session 4 -->
+                <div class="agenda-card bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-slate-50 text-slate-400 font-black text-xl flex items-center justify-center rounded-2xl mb-6">04</div>
+                        <h4 class="text-xl font-bold text-slate-900 leading-snug mb-4">DFM 기반 PCB 제조 검증</h4>
+                    </div>
+                    <div class="pt-6 border-t border-slate-50 flex items-center text-slate-600">
+                        <div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center mr-3 text-slate-400">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"></path></svg>
+                        </div>
+                        <span class="font-bold text-sm">[발표자 성함]</span>
+                        <span class="mx-2 text-slate-300">|</span>
+                        <span class="text-sm text-slate-500">Verity Technology</span>
+                    </div>
+                </div>
+
+                <!-- Session 5 -->
+                <div class="agenda-card bg-slate-900 p-8 rounded-3xl shadow-xl flex flex-col justify-between text-white md:col-span-2">
+                    <div>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-12 h-12 bg-blue-600 text-white font-black text-xl flex items-center justify-center rounded-2xl">05</div>
+                            <span class="bg-blue-600/20 text-blue-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest border border-blue-500/30">Networking</span>
+                        </div>
+                        <h4 class="text-2xl font-bold leading-snug mb-4">Q&A 및 네트워킹</h4>
+                        <p class="text-slate-400 font-light mb-4">발표 전문가 및 참가 실무자 간의 기술 정보 교류와 자유로운 질의응답이 진행됩니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Practical Info -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="md:col-span-2 bg-white p-10 rounded-[2rem] border border-slate-200 shadow-sm">
+                <h5 class="text-lg font-bold text-slate-900 mb-6 flex items-center">
+                    <svg class="w-5 h-5 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    참가 안내 및 주의사항
+                </h5>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-6">
+                    <div>
+                        <h6 class="text-blue-600 text-xs font-bold uppercase mb-2">Registration</h6>
+                        <p class="text-sm text-slate-600 leading-relaxed font-medium">원활한 행사 준비를 위해 4월 10일까지 사전 등록을 완료해 주시기 바랍니다.</p>
+                    </div>
+                    <div>
+                        <h6 class="text-blue-600 text-xs font-bold uppercase mb-2">Requirement</h6>
+                        <p class="text-sm text-slate-600 leading-relaxed font-medium">실습 세션 참가를 원하시는 경우 개인 노트북 지참을 권장드립니다.</p>
+                    </div>
+                    <div>
+                        <h6 class="text-blue-600 text-xs font-bold uppercase mb-2">Parking</h6>
+                        <p class="text-sm text-slate-600 leading-relaxed font-medium">건물 내 지하 주차장(B2-B4) 이용이 가능하며 무료 주차권이 제공됩니다.</p>
+                    </div>
+                    <div>
+                        <h6 class="text-blue-600 text-xs font-bold uppercase mb-2">Gift</h6>
+                        <p class="text-sm text-slate-600 leading-relaxed font-medium">참석하신 모든 분께는 간단한 다과와 소정의 기념품을 증정합니다.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-blue-600 p-10 rounded-[2rem] shadow-xl text-white flex flex-col justify-between">
+                <div>
+                    <h5 class="text-lg font-bold mb-6">참가 문의</h5>
+                    <div class="space-y-4">
+                        <div>
+                            <span class="block text-blue-200 text-[10px] font-bold uppercase mb-1">Manager</span>
+                            <p class="text-lg font-bold">[담당자 이름 / 직함]</p>
+                        </div>
+                        <div>
+                            <span class="block text-blue-200 text-[10px] font-bold uppercase mb-1">Direct Line</span>
+                            <p class="text-sm font-medium">[전화번호]</p>
+                            <p class="text-sm font-medium">[이메일 주소]</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="mt-10 w-full bg-white text-blue-600 hover:bg-slate-100 font-extrabold py-4 rounded-2xl transition-all shadow-lg active:scale-95">
+                    참가 신청하기
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-500 py-16 px-6">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
+            <div class="flex flex-col items-center md:items-start">
+                <div class="flex gap-4 mb-4 opacity-70 contrast-125">
+                    <!-- 하단 로고도 이미지로 대체 가능 -->
+                    <div class="h-6 w-20 bg-slate-700 rounded flex items-center justify-center text-[8px] font-bold text-slate-300">VERITY</div>
+                    <div class="h-6 w-20 bg-slate-700 rounded flex items-center justify-center text-[8px] font-bold text-slate-300">CADENCE</div>
+                </div>
+                <p class="text-[10px] tracking-widest text-slate-600 uppercase">© 2026 Verity Technology Korea. All Rights Reserved.</p>
+            </div>
+            <div class="flex gap-8 text-xs font-bold">
+                <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                <a href="#" class="hover:text-white transition-colors">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
